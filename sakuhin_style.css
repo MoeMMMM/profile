@@ -1,0 +1,97 @@
+
+
+h1 {
+	text-decoration:none;
+	font-size: 80px;
+	text-align: center;
+	font-weight:bold;
+	
+}
+
+h2 {
+	font-size: 50px;
+	text-align: center;
+}
+
+
+/*pour tous les boutons*/
+.hanareru{   
+	text-decoration:none; /*pour pas avoir de trait en dessous*/
+	color:black;
+	transition:letter-spacing,1s;
+	}
+.hanareru:hover{  /*les lettres vont s'éloigner quand je mets la souris dessus*/
+	letter-spacing:.5em;
+}
+
+
+
+
+/*Style pour les images dans la pages sakuhin*/
+.imgsakuhin{
+  width: 300px;
+  height: 300px;
+}
+
+.imgtitre{
+	width:80px;
+	height:80px;
+	padding:0px;
+}
+
+.imgtitre:hover{
+	width:100px;
+	height:100px;
+}
+
+.imgtitreup{
+	width:300px;
+	height:300px;
+}
+
+	
+/*style pour le modoru*/
+.modoru{
+	font-size: 20px;
+	text-align:left;
+	font-family:arial;
+	font-variant: small-caps;
+	padding:20px;
+}
+
+
+
+/*place des mots dans l'accueil*/
+#accueil{ 
+	font-size:200px;
+	text-align:center;
+}
+
+/*style pour la page Moë les titre et le texte*/
+.titre{
+	font-size:30px;
+	text-align:center;
+	font-weight: bold;
+}
+
+.para{
+	text-align:right;
+	margin-left:60em;
+	
+	
+}
+
+.paragraphe{
+    text-align:right;
+	padding:15px;
+	
+}
+
+li{ 
+	list-style:none;
+}
+
+.texte{
+	font-size:20px;
+	font-family:sans-serif;
+}
